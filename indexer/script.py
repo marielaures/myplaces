@@ -2,11 +2,14 @@ import json
 import os
 from algoliasearch import algoliasearch
 
+
 with open('places.json') as f:
 	raw = json.load(f)
+with open('config.json') as c:
+	credentials = json.load(c)
 
-USER_ID = os.getenv("ALGOLIA_USER_ID")
-API_KEY = os.getenv("ALGOLIA_API_KEY")
+USER_ID = credentials["ALGOLIA_USER_ID"]
+API_KEY = credentials["ALGOLIA_API_KEY"]
 client = algoliasearch.Client(USER_ID, API_KEY)
 
 # Push data
