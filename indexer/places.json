@@ -1,0 +1,46 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "geometry" : {
+      "coordinates" : [ 2.3195520, 48.8480960 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=17809004104103700284",
+      "Location" : {
+        "Address" : "62 Rue de Sèvres, 75007 Paris, France",
+        "Business Name" : "Fromagerie Quatrehomme",
+        "Country Code" : "FR",
+        "Geo Coordinates" : {
+          "Latitude" : "48.8480960",
+          "Longitude" : "2.3195520"
+        }
+      },
+      "Published" : "2015-10-12T13:22:35Z",
+      "Title" : "Fromagerie Quatrehomme",
+      "Updated" : "2017-03-14T15:29:08Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 2.3643870, 48.8806860 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=2534765953959386752",
+      "Location" : {
+        "Address" : "209 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+        "Business Name" : "Le Homard Parisien 10e",
+        "Country Code" : "FR",
+        "Geo Coordinates" : {
+          "Latitude" : "48.8806860",
+          "Longitude" : "2.3643870"
+        }
+      },
+      "Published" : "2017-03-11T17:05:25Z",
+      "Title" : "Le Homard Parisien 10e",
+      "Updated" : "2017-03-11T17:05:25Z"
+    },
+    "type" : "Feature"
+  }
+]}
