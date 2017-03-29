@@ -54,7 +54,20 @@ search.addWidget(
     sortBy: ['name:asc'],
     operator: 'or',
     templates: {
-      header: '<h5>Country/h5>'
+      header: '<h5>Country</h5>'
+    }
+  })
+);
+//Refinement List Filter on Category
+search.addWidget(
+  instantsearch.widgets.refinementList({
+    container: '#category',
+    attributeName: 'properties.Location.Category',
+    limit: 10,
+    sortBy: ['name:asc'],
+    operator: 'or',
+    templates: {
+      header: '<h5>Category</h5>'
     }
   })
 );

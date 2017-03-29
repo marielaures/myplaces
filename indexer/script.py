@@ -22,7 +22,7 @@ print 'Nombre de MyPlaces : {0}.'.format(len(raw["features"]))
 
 settingsTask = index.set_settings({
   "searchableAttributes": ["properties.Title", "properties.Location.BusinessName", "properties.Location.Address"],
-  "attributesForFaceting":["properties.Title"]
+  "attributesForFaceting":["properties.Location.Category", "properties.Location.Country Code"]
 })
 
 print 'Settings Task : {0}.'.format(settingsTask['taskID'])

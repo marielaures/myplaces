@@ -10,7 +10,8 @@
       "Location" : {
         "Address" : "62 Rue de Sèvres, 75007 Paris, France",
         "Business Name" : "Fromagerie Quatrehomme",
-        "Country Code" : "FR",
+        "Country Code" : "France",
+        "Category" : "Cheese Shop",
         "Geo Coordinates" : {
           "Latitude" : "48.8480960",
           "Longitude" : "2.3195520"
@@ -23,6 +24,94 @@
     "type" : "Feature"
   }, {
     "geometry" : {
+      "coordinates" : [ -74.0014880, 40.7343550 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=14304639371057688883",
+      "Location" : {
+        "Address" : "154 West 10th Street, New York, NY 10014, United States",
+        "Business Name" : "Three Lives & Company",
+        "Country Code" : "United States",
+        "Category" : "Bookshop",
+        "Geo Coordinates" : {
+          "Latitude" : "40.7343550",
+          "Longitude" : "-74.0014880"
+        }
+      },
+      "Published" : "2015-10-11T18:34:10Z",
+      "Title" : "Three Lives & Company",
+      "Updated" : "2017-01-16T23:31:30Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 2.3536411, 48.8724510 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=14140962719630774073",
+      "Location" : {
+        "Address" : "4 Cour des Petites Écuries, 75010 Paris, France",
+        "Business Name" : "Gros",
+        "Country Code" : "France",
+        "Category" : "Restaurant",
+        "Geo Coordinates" : {
+          "Latitude" : "48.8724510",
+          "Longitude" : "2.3536411"
+        }
+      },
+      "Published" : "2016-03-06T13:00:47Z",
+      "Title" : "Gros",
+      "Updated" : "2017-03-01T17:02:45Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -73.9957536, 40.6878015 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=15401896729824605693",
+      "Location" : {
+        "Address" : "268 Clinton Street, Brooklyn, NY 11201, United States",
+        "Business Name" : "La Vara",
+        "Country Code" : "United States",
+        "Category" : "Restaurant",
+        "Geo Coordinates" : {
+          "Latitude" : "40.6878015",
+          "Longitude" : "-73.9957536"
+        }
+      },
+      "Published" : "2017-01-16T23:11:58Z",
+      "Title" : "La Vara",
+      "Updated" : "2017-01-16T23:11:58Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -73.9880517, 40.7456324 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=8778389626880739538",
+      "Location" : {
+        "Address" : "18 West 29th Street, New York, NY 10001, United States",
+        "Business Name" : "Stumptown Coffee Roasters",
+        "Country Code" : "United States",
+        "Category" : "Coffee",
+        "Geo Coordinates" : {
+          "Latitude" : "40.7456324",
+          "Longitude" : "-73.9880517"
+        }
+      },
+      "Published" : "2015-10-12T00:56:52Z",
+      "Title" : "Stumptown Coffee Roasters",
+      "Updated" : "2015-10-12T00:56:52Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
       "coordinates" : [ 2.3643870, 48.8806860 ],
       "type" : "Point"
     },
@@ -31,7 +120,8 @@
       "Location" : {
         "Address" : "209 Rue du Faubourg Saint-Martin, 75010 Paris, France",
         "Business Name" : "Le Homard Parisien 10e",
-        "Country Code" : "FR",
+        "Country Code" : "France",
+        "Category" : "Fish Shop",
         "Geo Coordinates" : {
           "Latitude" : "48.8806860",
           "Longitude" : "2.3643870"
